@@ -3,7 +3,7 @@ var speed,weight;
 function setup() {
   createCanvas(1600,400);
 
-  speed=random(200,233);    //random speed for random deformation of car
+  speed=random(150,220);    //random speed for random deformation of car
   weight=random(30,52);  //random weight for random deformation of car
 
   bullet=createSprite(50,200,50,20);
